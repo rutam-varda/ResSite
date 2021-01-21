@@ -1,0 +1,211 @@
+.center-block {
+	min-height: 445px;
+	border-bottom: solid #ccc 1px;
+}
+
+.about {
+	text-align: center;
+	margin-top: 60px;
+	font-family: 'Open Sans', Regular;
+	font-size: 30px;
+}
+
+.goals-avatar-dreams {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 30px;
+	padding-bottom: 60px;
+	border-bottom: solid #ccc 1px;
+}
+
+.goals-p, .dreams-p {
+	height: 286px;
+	width: 303px;
+	font-family: 'Open Sans', Regular;
+	font-size: 16px;
+	margin-top: 22px;
+}
+
+.goals {
+	text-align: right;
+}
+
+.goals-h, .dreams-h {
+	font-family: 'Open Sans', Regular;
+	font-size: 22px;
+}
+
+.avatar {
+	border: solid #424242 10px;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	margin-left: 17px;
+	margin-right: 17px;
+	margin-top: 78px;
+	background-image: url(../img/avatar.png);
+	background-repeat: no-repeat;
+	padding-left: 10px;
+}
+
+/* Skills */
+
+.skills-block {
+	border-bottom: solid #ccc 1px;
+	padding-bottom: 80px;
+}
+
+.skills-head {
+	font-size: 30px;
+	font-family: 'Open Sans', Regular;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+
+.container-skills {
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+	margin: 0 auto;
+}
+
+#skills-name {
+	line-height: 30px;
+	letter-spacing: 2px;
+}
+.skills-name {
+	font-size: 30px;
+	font-family: 'Open Sans', Regular;
+	color: #333333;
+	line-height: 18px;
+}
+
+.circles-grey {
+	border-radius: 50%;
+	background: #9c9a9a;
+	height: 20px;
+	width: 20px;
+	margin-right: 9px;
+}
+
+.circles-black {
+	border-radius: 50%;
+	background: #333333;
+	height: 20px;
+	width: 20px;
+	margin-right: 9px;
+}
+
+.skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.circles {
+	display: flex;
+	flex-direction: row;
+}
+
+
+/* CONTACT */
+
+.contact-center {
+	margin: 0 auto;
+	width: 712px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact-name {
+	width: 140px;
+	height: 190px;
+	margin-top: 45px;
+}
+
+.contact-head {
+	font-size: 30px;
+	font-family: 'Open Sans', Regular;
+	color: black;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.black {
+	font-size: 15px;
+	color: black;
+	font-family: 'Open Sans', Regular;
+	line-height: 14px;
+	letter-spacing: 1px;
+	margin-bottom: 16px;
+}
+
+.grey {
+	font-size: 15px;
+	color: #9a9a9a;
+	font-family: 'Open Sans', Regular;
+	line-height: 14px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+/* CONTACT Form */
+
+.contact-form {
+	margin-top: 50px;
+	width: 436px;
+}
+
+.elements {
+	border-radius: 2px;
+	width: 436px;
+	height: 48px;
+	border: solid 1px #888888;
+	font-size: 15px;
+	font-family: 'Open Sans', Regular;
+	color: #838181;
+	opacity: 0.8;
+	padding-left: 8px;
+}
+
+.elements-textarea {
+	border-radius: 2px;
+	border: solid 1px #888888;
+	width: 436px;
+	height: 90px;
+	font-size: 15px;
+	font-family: 'Open Sans', Regular;
+	color: #838181;
+	opacity: 0.8;
+	padding-left: 8px;
+}
+
+.name-form {
+	margin-bottom: 19px;
+}
+
+.email-form {
+	margin-bottom: 27px;
+}
+
+.button {
+	text-align: center;
+	margin-bottom: 90px;
+	margin-top: 28px;
+}
+
+#send {
+	width: 165px;
+	height: 30px;
+	background: #333333;
+	font-size: 15px;
+	font-family: 'Open Sans', Regular;
+	color: #fff; 
+}
+
+#send:hover {
+	cursor: pointer;
+}

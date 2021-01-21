@@ -1,0 +1,27 @@
+footer {
+	background: #333333;
+	height: 172px;
+}
+
+.footer-center {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-contact {
+	margin-top: 40px;
+	width: 210px;
+	height: 70px;
+	color: #f1f0f0;
+	font-size: 13px;
+	font-family: 'Open Sans', Regular;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+
+.footer-logo {
+	margin-top: 50px;
+	width: 70px;
+	height: 55px;
+}
